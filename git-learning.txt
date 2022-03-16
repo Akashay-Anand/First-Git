@@ -1,0 +1,20 @@
+@ GIT 
+
+
+1) Set name for global   // here using  " " on name becouse that contain space in-between.
+
+git config --global user.name "Akashay Anand"
+
+2) set email 
+git config --global user.email akashayanand1@gmail.com
+
+3) set defoult editor // here "code" is used for vs code in invorment veriable;  // --wait flag tells to wait until editor window is closed.
+
+git config --global core.editor "code --wait"
+
+4) Run/open editor
+git config -- global -e
+
+5) correct the line end character // in windows, there are two line end characters ( \r, \n ). SO this code will remove \r form code.
+
+git config --global core.autocrlf true
