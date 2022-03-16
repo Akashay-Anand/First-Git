@@ -1,1 +1,3 @@
 int variable = 5
+fo(variable):
+	print(variable);
